@@ -1,7 +1,7 @@
+import Filter from "@/component/Filter";
+import TaskForm from "@/component/Fro";
+import { Task } from "@/component/Tas";
 import React, { useState } from "react";
-import Task from "./component/tas.jsx";
-import TaskForm from "./component/fro.jsx";
-import Filter from "./component/filter.jsx";
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
